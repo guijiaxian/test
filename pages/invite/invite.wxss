@@ -1,0 +1,25 @@
+.title {
+  color:white;
+  float: left;
+}
+
+.titleLine {
+  width: 85%;
+  display:flex; 
+  flex-direction:row; 
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.detailsLine {
+  width: 85%;
+  font-size: 10pt;
+  color:white;
+  margin-top: 10px;
+}
+
+.regbutton {
+  position: fixed;
+  bottom: 0rpx;
+  margin-bottom: 300rpx;
+}

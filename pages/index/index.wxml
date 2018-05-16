@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<!--<view class="container">
+ <view  bindtap="bindViewTap" class="userinfo">
+    <text class="userinfo-nickname">{{id}}</text>
+  </view>
+</view>
+
+
+
+<template name="cell">
+  <view class="cell" bindtap="bindViewTap" data-hi="{{item.flag}}">  
+      <image class="icon" src="{{item.icon}}"      background-size="cover"></image>
+      <view class="caption"> {{item.caption}}</view>
+       <image class="arrow" src="https://open.closerhearts.cn/server_v4/web/live/demopic/箭头@-2x.png"      background-size="cover"></image>
+  </view>
+</template>
+
+<view class="container">
+<!--  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{array[0].icon}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>-->
+
+<!--<block  wx:for="{{array}}" >
+    <template is="cell" data="{{item}}"/>
+</block>
+
+</view>-->
+<view  bindtap="bindViewTap" data-name="{{p}}" data-order="{{orderid}}">支付</view>
+<view>{{p}}</view>
+<view>{{orderid}}</view>

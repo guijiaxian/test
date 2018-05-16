@@ -1,0 +1,16 @@
+<view class="container">
+ <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+
+<button open-type="share">分享</button>
+
+<text class="userinfo-nickname">{{group}}</text>
+
+<button open-type="check" bindtap="onTap">查看</button>
+
+
+<open-data type="groupName" open-gid="tGZXwb5Cx9iD22B-G7UTEM0mwbfIo"></open-data>
+
+</view>

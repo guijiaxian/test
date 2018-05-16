@@ -1,0 +1,14 @@
+<view class="containerbg" style='height:{{pageheight}}'>
+      <view  class="topbg" ></view>
+      <view  class="middlebg" ></view>
+      <view  class="bottombg"></view>
+</view>  
+
+<view class="container" style='height:{{pageheight}}'>
+    <view class="titleLine" style="padding-top: 30px;">
+      <view class="title">排排坐领糖果</view>
+    </view>
+    <button class="invitebutton" open-type="share">去分享</button>
+
+
+</view>

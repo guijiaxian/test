@@ -1,0 +1,57 @@
+.title {
+  color:white;
+  width: 80%;
+  text-align: center;
+  font-size: 14pt;
+  margin-top: 10px;
+}
+
+.titleLine {
+  width: 85%;
+  display:flex; 
+  flex-direction:row; 
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.detailsLine {
+  width: 85%;
+  font-size: 10pt;
+  color:#E0E0E0;
+  margin-top: 10px;
+}
+
+.regbutton {
+  position: absolute;
+  width:100%;
+  color:#7E80E5;
+  bottom: 0rpx;
+  height: 60px;
+  padding-top: 10px;
+}
+
+.titledesc{
+  font-size:11pt;
+  margin-top:10px;
+  color:white;
+  text-align: left;
+  position: absolute;
+  width:90%;
+  bottom: 120px;
+}
+
+.titlecp{
+  font-size:10pt;
+  width:90%;
+  color:white;
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  bottom: 70px;
+}
+
+.pagelogo {
+  margin-top: 130px;
+  width: 80px;
+  height: 80px;
+}

@@ -1,0 +1,131 @@
+.title {
+  color:white;
+  float: left;
+}
+
+page {
+  width:100%;
+  display: block; 
+  height: 100%;
+  min-height: 100%;
+}
+
+.titleLine {
+  width: 85%;
+  display:flex; 
+  flex-direction:row; 
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.detailsLine {
+  width: 85%;
+  font-size: 10pt;
+  color:white;
+  margin-top: 10px;
+}
+
+.accountcaption{
+  margin-top: 40px;
+  margin-left: 40px;
+  width:100%;
+  height: 20px;
+  font-size: 14pt;
+  color:white;
+}
+
+.accountcontainer {
+  flex: 1;
+  width: 100%;
+  color:black;
+  font-size: 10pt;
+  margin-top: 60px;
+}
+
+.accountcell {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80px;
+  margin: 0rpx;
+  align-items:center;
+  color:withe;
+}
+
+.accountcell2 {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 80px;
+  margin: 0rpx;
+  align-items:center;
+}
+
+.accountusercell {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 30px;
+  margin: 0rpx;
+  align-items:center;
+  color:withe;
+}
+
+.accounttexttype {
+  width: 90%;
+  height:30px;
+  font-size: 12pt;
+  text-align: left;
+  color:white;
+}
+
+.accounttextmoney {
+  width: 100px;
+  height:90%;
+  font-weight: bold;
+  font-size: 12pt;
+  text-align: right;
+  padding-right: 15px;
+  color:white;
+}
+
+.accounttextdate {
+  margin-top: 15px;
+  width: 90%;
+
+  font-size: 9pt;
+  text-align: left;
+  color:white;
+}
+
+.line {
+  background-color: #E0E0E0;
+  height: 1px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.getmoneybutton {
+   width:80px;
+  margin-top: 10px;
+  height:30px;
+  font-size: 10pt;
+  position: relative;
+  right:40px;
+  float:right;
+  background-image: url(http://open.lingxiai.net/lxCandy/images/product/提现tab@2x.png) ;
+}
+
+.getmoneybutton {
+  width:80px;
+  margin-top: 10px;
+  height:30px;
+  font-size: 10pt;
+  position: relative;
+  right:20px;
+  float:right;
+  background-image: url(http://open.lingxiai.net/lxCandy/images/product/提现tab@2x.png) ;
+}

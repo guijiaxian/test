@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/details/details"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#B4AFF4",
+    "navigationBarTitleText": "中酿藏品",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#B4AFF4",
+    "enablePullDownRefresh": false
+  },
+  "networkTimeout": {
+    "request": 60000,
+    "uploadFile": 60000,
+    "downloadFile": 60000
+  },
+  "debug": true
+}

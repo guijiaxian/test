@@ -1,0 +1,16 @@
+<view class="containerbg" style='height:{{pageheight}}'>
+      <view  class="topbg" ></view>
+      <view  class="middlebg" ></view>
+      <view  class="bottombg"></view>
+</view>  
+
+<view class="container" style='height:{{pageheight}}'>
+    <image class="pagelogo" src="http://open.lingxiai.net/lxCandy/images/product/引流页面logo.png" mode="scaleToFill">
+      </image>
+    <text class="title">不费力就给糖</text>
+    <text class="title" style="font-size:13pt" >数据价值链首款移动挖矿工具</text>
+    <text class="titledesc">我们即将推出糖果盒app，除了可以帮你轻松获得大量糖果外，还可以管理、交易您在糖果袋抢到的各种糖果哦！只要耐心等待一小会，马上发车带你飞~</text>
+    <text class="titlecp">Made by BAIC</text>
+    <button class='regbutton' bindtap="getMap" >敬请期待</button>
+
+</view>

@@ -1,0 +1,125 @@
+<!--<view class="containerbg" style='height:{{pageheight}}px'>
+      <view  class="topbg" ></view>
+      <view  class="middlebg" ></view>
+      <view  class="bottombg"></view>
+</view>  
+
+
+<view class="container" style='height:{{pageheight}}px'>
+    <view class="titleLine" style="padding-top: 30px;">
+      <view class="title">Hi，</view>
+      <view class="title">{{nickname}}</view>
+    </view>
+
+    <view class="detailsLine">
+      这是你的BAIC糖果袋，并且给你装了一把免费糖果哦～我们会不定期的空投很多糖果哦～想得到更多糖果？注我们快去捣蛋！
+    </view>-->
+
+
+    <!--第一个卡片-->
+    <!--<view class="mycardcontainer"  style="margin-top:20px;height: 160px;" catchtap="onListAccount" >
+      <image class="mycard" src="http://open.lingxiai.net/lxCandy/images/product/卡片6.png" mode="scaleToFill">
+      </image>
+      <view class="groupcardsubcontainer"> 
+          <view style="width:70%;height:100%">
+            <view class="groupcardcontent" style='font-size:14pt;margin-left:10px;font-weight:bold'>我的糖果袋</view>
+          </view>
+          
+          <view class="secondcard" >
+               <view class="cardcontent" style="font-size:8pt;margin-top:40px;">糖果总额</view>
+        <view class="cardcontent" style="margin-top:10px;font-size:16pt">{{totalval}} BAI</view>
+          </view>
+        </view>
+      
+    </view>-->
+
+    <!--第二个卡片-->
+    <!--<block  wx:if="{{notingroup}}">
+      <view class="mycardcontainer" style="margin-top:10px;height: 180px;">
+        <view class="groupcard">
+        </view>
+        <view class="groupcardsubcontainer"> 
+          <view style="width:50%;height:100%">
+            <view class="groupcardcontent" style='font-size:14pt;margin-left:10px;font-weight:bold'>加入糖果群</view>
+            <view class="groupcardcontent" style='font-size:8pt;margin-left:10px'>只发糖果不说话</view>
+          </view>
+          
+          <view class="secondcard" style='padding-left:30px'>
+              <image style="width:80px;height:80px;margin-top:10px" src='{{codeurl}}' bindtap="onSaveCode"></image>
+              <view style='margin-top:10px;font-size:8pt;color:white;text-align:center' >点击并保存二维码加群</view>
+              <view style='margin-top:5px;font-size:8pt;color:white;text-align:center' >加群成功，再送糖果！</view>
+          </view>
+        </view>
+      </view>
+    </block>
+    <!--<block  wx:else>
+      <view style='width:100%;height:20px' />
+    </block>-->
+
+
+    <!--第三个卡片-->
+    <!--<view class="mycardcontainer" style="margin-top:10px;height: 560px;">
+      <view class="invitecard">
+      </view>
+      <view class="invitecardsubcontainer2"> 
+
+            <image class="pagelogo" src="http://open.lingxiai.net/lxCandy/images/product/pagelogo.png" mode="scaleToFill">
+      </image>
+
+           <text class="invitecontent" style='font-size:16pt;margin-top: 0px;'>好友多多糖果多多</text>
+            <view class="invitecontent" style='font-size:8pt'>限时领取BAI：2018.2.1—2018.2.25</view>
+
+            <text class='invitecontent2' style='font-size:8pt;margin-left:10px'>怎么排排坐领糖果？</text>
+
+             <text class='invitecontent2' style='font-size:8pt;margin-left:10px'>步骤一</text>
+
+             <text class='invitecontent2' style='font-size:8pt;margin-left:10px'>告诉朋友，捣蛋就有糖果领！并把你的糖果袋分享给你的好友。</text>
+
+            <text class='invitecontent2' style='font-size:8pt;margin-left:10px'>步骤二</text>
+
+             <text class='invitecontent2' style='font-size:8pt;margin-left:10px'>提醒你的朋友，只有你的朋友点开并注册，你们才能获得奖励哟~</text>
+
+            <text class='invitecontent2' style='font-size:8pt;margin-left:10px'>步骤三</text>
+
+             <text class='invitecontent2' style='font-size:8pt;margin-left:10px'>都领到糖果了？那就加入官方糖果群，获得又一份糖果哦！</text>
+
+            <view class='pageline'></view>
+
+             <text class='invitecontent2' style='font-size:8pt;margin-left:10px'>1.为了糖果袋的安全提现时，将跳转BAIC糖果盒，并进行相应的账户验证</text>
+
+             <text class='invitecontent2' style='font-size:8pt;margin-left:10px'>2.请密切关注活动，注意活动时间，我们会不定期的调整糖果类型哦~</text>
+
+ 
+          <button class="invitebutton" open-type="share">立即分享</button>
+
+        </view>
+    </view>
+
+   
+    <!--近三天邀请好友-->
+    <!--
+    <template name="cell">
+      <view class="cell" bindtap="bindViewTap" data-hi="{{item.val}}">  
+          <image class="avatar" src="{{item.avatarurl}}" background-size="cover"></image>
+          <view style="flex: 1; margin-left:10px"> {{item.nickname}}</view>
+          <view >{{item.val}}</view>
+      </view>
+    </template>
+  
+    <view class='friendcontainer' >
+      <view>近3天邀请的好友</view>
+      <view style="margin-top: 10px">
+        <block  wx:for="{{friend}}" >
+          <template is="cell" data="{{item}}"/>
+        </block>
+      </view>
+    </view>
+    -->
+<!--<open-data type="groupName" open-gid="{{groupID}}" ></open-data>-->
+<!--</view>-->
+
+<web-view src="{{path}}"></web-view>
+<!--<view  bindtap="bindViewTap">支付</view>-->
+
+
+

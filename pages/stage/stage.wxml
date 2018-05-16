@@ -1,0 +1,11 @@
+<!--stage.wxml-->
+
+
+<view class="container">
+     <view  class="userinfo">
+        <image class="ad" src="{{adImage}}" style="width: {{imagewidth}}px; height: {{imageheight}}px;" bindload="imageLoad"  ></image>
+    <text class="result">{{result}}</text>
+    <text bindtap="bindViewTap" class="trybtn">{{btn}}</text>
+  </view>
+
+</view>

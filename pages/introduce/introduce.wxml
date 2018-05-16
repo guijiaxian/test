@@ -1,0 +1,66 @@
+<!--<view class="container" style='height:{{pageheight}}px;background-color:white'>
+
+    <image class="logo"  src='http://open.lingxiai.net/lxCandy/images/product/logo@2x.png'  background-size="cover" ></image>
+    <view class="logotext">个人数据价值链</view>
+
+    <view class="subtitle">什么是BAIC?</view>
+    <view class="subdesc">BAIC是无比强大的区块链公链平台，专门用于智能家居、AI机器人、物联网设备神马的，帮助小伙伴把自己的各种设备的数据价值化，然后从数据中挖掘财富，走向人生辉煌哦~（=￣ω￣=）知道IOTA嘛，对，就是那个市值100亿美元的物联网公链，BAIC可是它的中国版，更要在未来干掉它哦✌️</view>
+
+    <view class="subtitle">这些大佬早已上车，你还在等什么？</view>
+
+    <image src="http://open.lingxiai.net/lxCandy/images/product/logo1@2x.png" class='brandmage' mode='scaleToFill' style='width:{{logo1width}}px;height:{{logo1height}}'></image>
+    <image src="http://open.lingxiai.net/lxCandy/images/product/logo2@2x.png" class='brandmage' mode='scaleToFill' style='width:{{logo2width}}px;height:{{logo2height}}'></image>-->
+
+    <!--<view class="cardcontainer" style="margin-top:20px">
+      <view class="firstcardcontent">
+        <view class="firstcard" >
+            <view class='firstcardimageholder'>
+            <image src="http://open.lingxiai.net/lxCandy/images/product/价值链@2x.png" mode='scaleToFill' class='firstcardimage'></image>
+              </view>
+            <view class="firstcardtitle">价值链</view>
+            <view class='firstcarddesc'>价值在物物、物人传递
+中增值</view>
+        </view>
+      </view>
+      <view class="firstcardcontent">
+         <view class="firstcard" >
+            <view class='firstcardimageholder'>
+            <image src="http://open.lingxiai.net/lxCandy/images/product/去中心化@2x.png" mode='scaleToFill' class='firstcardimage'></image>
+              </view>
+            <view class="firstcardtitle">去中心化</view>
+            <view class='firstcarddesc'>真正去中心化、完全开源透明
+中增值</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="cardcontainer" >
+      <view class="firstcardcontent">
+        <view class="firstcard" >
+            <view class='firstcardimageholder'>
+            <image src="http://open.lingxiai.net/lxCandy/images/product/机器人@2x.png" mode='scaleToFill' class='firstcardimage'></image>
+              </view>
+            <view class="firstcardtitle">机器人世界</view>
+            <view class='firstcarddesc'>物联网货币是机器人自建社会的重要一步</view>
+        </view>
+      </view>
+      <view class="firstcardcontent">
+         <view class="firstcard" >
+            <view class='firstcardimageholder'>
+            <image src="http://open.lingxiai.net/lxCandy/images/product/体验未来@2x.png" mode='scaleToFill' class='firstcardimage'></image>
+              </view>
+            <view class="firstcardtitle">体验未来</view>
+            <view class='firstcarddesc'>即将发布全球首款支持智能合约的AI机器人</view>
+        </view>
+      </view>
+    </view>-->
+
+  <!-->  <view class="subtitle">什么是BAIC糖果盒和糖果袋？</view>
+    <view class="subdesc">BAIC糖果盒是由BAIC社区开发，帮助小伙伴赚包括BAI在内各种Token的利器哦，在手机上安装就能每日轻松挖矿，另外糖果盒用户互转糖果可是免手续费的呦！糖果袋则是专为小伙伴领各种糖果设计的小程序钱包，经常点点，就可以参与各种糖果活动啦</view>
+
+     <view class="firstpagemore">了解更多：www.baic.io</view>
+    <button class='firstbottombg' bindtap="onRegister2">加入我们，获得糖果</button>
+    <!--<button style='height:30px;width:100px;font-size:10pt'  open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">绑定手机</button>-->
+<!--</view>-->
+<!--<web-view src="https://open.lingxiai.net/order/content/web/28-136-2/index.html?v=5"></web-view>-->
+<!--<view  bindtap="bindViewTap">支付</view>-->

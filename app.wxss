@@ -1,0 +1,244 @@
+/**app.wxss**/
+.container {
+  position: relative;
+  width:100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+
+.containerSub {
+  top: 10px;
+  position: relative;
+  z-index: 1;
+  margin-top: 0px;
+  width:10%;
+  height: 1500px;
+  background-color: red;
+} 
+
+
+
+.topbg {
+  width:100%;
+  height:320px;
+  background-image: url(http://open.lingxiai.net/lxCandy/images/顶部背景@2x.png) ;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+.bottombg {
+  bottom:0rpx;
+  width:100%;
+  height:150px;
+  background-image: url(http://open.lingxiai.net/lxCandy/images/底部背景@2x.png) ;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+.middlebg {
+  width:100%;
+  flex: 1;
+  background-image: url(http://open.lingxiai.net/lxCandy/images/中间@2x.png) ;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+page {
+  width:100%;
+  display: block; 
+  height: 100%;
+  min-height: 100%;
+  background-color: #b9acf5;
+}
+
+.containerbg {
+  width: 100%;
+  position:absolute;
+  display: -webkit-flex; 
+  align-content:stretch; 
+  display:flex; 
+  flex-direction:column; 
+  margin-top:0px;
+  height:100%;
+  flex-wrap: nowrap;
+  flex-basis:auto;
+}
+
+
+.mycardcontainer {
+  width: 100%;
+}
+
+.mycard {
+  margin-left: 20px;
+  margin-right: 20px;
+  position: absolute;
+  width: 90%;
+  height: 160px;
+}
+
+.mycardsubcontainer {
+  padding-top: 10px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cardcontent {
+  margin-right: 70px;
+  text-align:right;
+  width: 100%;
+  font-size: 10pt;
+  color:white;
+
+ 
+}
+
+.lxbutton {
+  width:80px;
+  margin-top: 10px;
+  height:30px;
+  font-size: 10pt;
+  position: relative;
+  right:40px;
+  float:right;
+}
+
+.groupcard {
+  margin-left: 20px;
+  margin-right: 20px;
+  position: absolute;
+  width: 90%;
+  height: 180px;
+  background-image: url(http://open.lingxiai.net/lxCandy/images/product/卡片2.png) ;
+  background-repeat:round;
+  background-size: cover;
+}
+
+.invitecardsubcontainer {
+  padding-top: 30px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.groupcardsubcontainer {
+  padding-top: 10px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.groupcardcontent {
+  position: relative;
+  padding-left: 30px;
+  text-align:left;
+  width: 90%;
+  font-size: 10pt;
+  color:white;
+  margin-top: 10px;
+}
+
+
+
+.invitecard {
+  margin-left: 20px;
+  margin-right: 20px;
+  position: absolute;
+  width: 90%;
+  height: 560px;
+  background-image: url(http://open.lingxiai.net/lxCandy/images/product/卡片5.png) ;
+  background-repeat:round;
+  background-size: cover;
+}
+
+.invitecardsubcontainer {
+  display: flex;
+  width:100%;
+  flex-direction: row;
+  align-items: center;
+  align-content:space-between;
+  justify-content:space-between;
+  height: 100%;
+}
+
+.invitecardsubcontainer2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content:space-between;
+  justify-content:space-between;
+}
+
+.invitecardsubcontainer3 {
+  width: 100%;
+}
+
+.invitebutton {
+  width:130px;
+  padding-top: 5px;
+  height:40px;
+  padding-bottom:5px;
+  font-size: 10pt;
+  position: relative;
+  margin-top: 30px;
+}
+
+.invitecardcontent {
+  position: relative;
+  left: 30px;
+  text-align:left;
+  width: 100%;
+  font-size: 10pt;
+  color:white;
+  margin-top: 10px;
+}
+
+.friendcontainer {
+  width: 90%;
+  color:white;
+  font-size: 10pt;
+  margin-top: 40px;
+  margin-left: 50rpx;
+
+}
+
+.avatar {
+  width: 50rpx;
+  height: 50rpx;
+  margin: 0rpx;
+  border-radius: 100rpx;
+}
+
+.cell {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 80rpx;
+  margin: 0rpx;
+  align-items:center;
+}
+
+.secondcard {
+  padding-top:30px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+  margin: 0rpx;
+  align-items:center;
+
+}
